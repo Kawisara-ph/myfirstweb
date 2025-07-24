@@ -27,7 +27,7 @@
     }
 
     header img {
-      width: 180px; /* ใหญ่ขึ้น */
+      width: 180px;
       height: auto;
       display: block;
       margin: 0 auto 20px;
@@ -69,8 +69,8 @@
 
     .product-card img {
       width: 100%;
-      height: 250px; /* ความสูงคงที่ */
-      object-fit: cover; /* ครอบภาพให้พอดี */
+      height: 250px;
+      object-fit: cover;
       border-radius: 8px;
     }
 
@@ -78,6 +78,12 @@
       font-size: 1.1rem;
       color: var(--matcha-dark);
       margin: 10px 0 5px;
+    }
+
+    .product-card p {
+      font-size: 0.95rem;
+      color: #666;
+      margin-bottom: 10px;
     }
 
     .price {
@@ -98,7 +104,7 @@
 <body>
 
   <header>
-    <!-- โลโก้ใหญ่ตรงกลาง -->
+    <!-- โลโก้ -->
     <img src="logo-cute-matcha.png" alt="โลโก้ร้านมัทฉะน่ารัก" />
     <h1>Matcha CMU</h1>
     <div class="tagline">“เติมความสดชื่น พร้อมสุขภาพดี สำหรับชาว มช.”</div>
@@ -109,6 +115,7 @@
     <div class="product-card">
       <img src="matcha1.jpg" alt="มัทฉะแบบผง">
       <h2>มัทฉะแบบผง 10g</h2>
+      <p>มัทฉะแท้ 100% จากญี่ปุ่น เหมาะสำหรับชงดื่มหรือทำเบเกอรี่</p>
       <div class="price">฿45</div>
     </div>
 
@@ -116,6 +123,7 @@
     <div class="product-card">
       <img src="matcha2.jpg" alt="มัทฉะลาเต้">
       <h2>มัทฉะลาเต้เย็น</h2>
+      <p>รสนุ่มละมุน ผสมผสานมัทฉะเข้มข้นกับนมสดเย็นชื่นใจ</p>
       <div class="price">฿60</div>
     </div>
 
@@ -123,6 +131,7 @@
     <div class="product-card">
       <img src="matcha3.jpg" alt="มัทฉะสมูทตี้">
       <h2>มัทฉะสมูทตี้</h2>
+      <p>เครื่องดื่มมัทฉะปั่นรวมผลไม้ เพิ่มพลังสดชื่นในทุกวัน</p>
       <div class="price">฿75</div>
     </div>
   </section>
