@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Matcha CMU</title>
   <style>
     :root {
@@ -22,19 +22,19 @@
 
     header {
       background-color: #ffffffcc;
-      padding: 20px;
+      padding: 40px 20px 20px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
     header img {
-      width: 120px;
+      width: 180px; /* ใหญ่ขึ้น */
       height: auto;
       display: block;
-      margin: 0 auto 10px;
+      margin: 0 auto 20px;
     }
 
     header h1 {
-      font-size: 2rem;
+      font-size: 2.2rem;
       color: var(--matcha-dark);
       margin: 0;
     }
@@ -58,7 +58,7 @@
       background-color: #fff;
       border-radius: 12px;
       box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-      max-width: 280px;
+      width: 280px;
       padding: 20px;
       transition: transform 0.3s ease;
     }
@@ -69,8 +69,9 @@
 
     .product-card img {
       width: 100%;
+      height: 250px; /* ความสูงคงที่ */
+      object-fit: cover; /* ครอบภาพให้พอดี */
       border-radius: 8px;
-      object-fit: cover;
     }
 
     .product-card h2 {
@@ -97,5 +98,38 @@
 <body>
 
   <header>
-    <!-- โลโก้น่ารักตรงกลาง (ฝัง Base64) -->
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAMAAACOL1zNAAAAMFBMVEUAAAD/////AAD///8AAAD9/f3+/v7///8fHx9PT0+np6fW1tZeXl6Dg4PZ2dnPz8/o6Oi+vr7sMiV+AAABUklEQVR4nO3WsQ3CQBAFQXAgP//vBzmwhSljJbsVll0/1NLwLohvYiKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIoigKIo
+    <!-- โลโก้ใหญ่ตรงกลาง -->
+    <img src="logo-cute-matcha.png" alt="โลโก้ร้านมัทฉะน่ารัก" />
+    <h1>Matcha CMU</h1>
+    <div class="tagline">“เติมความสดชื่น พร้อมสุขภาพดี สำหรับชาว มช.”</div>
+  </header>
+
+  <section class="product-section">
+    <!-- สินค้า 1 -->
+    <div class="product-card">
+      <img src="matcha1.jpg" alt="มัทฉะแบบซอง">
+      <h2>มัทฉะแบบซอง 10g</h2>
+      <div class="price">฿45</div>
+    </div>
+
+    <!-- สินค้า 2 -->
+    <div class="product-card">
+      <img src="matcha2.jpg" alt="มัทฉะลาเต้">
+      <h2>มัทฉะลาเต้เย็น</h2>
+      <div class="price">฿60</div>
+    </div>
+
+    <!-- สินค้า 3 -->
+    <div class="product-card">
+      <img src="matcha3.jpg" alt="มัทฉะสมูทตี้">
+      <h2>มัทฉะสมูทตี้</h2>
+      <div class="price">฿75</div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Matcha CMU | ร้านมัทฉะสำหรับนักศึกษามหาวิทยาลัยเชียงใหม่
+  </footer>
+
+</body>
+</html>
