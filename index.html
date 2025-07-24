@@ -2,133 +2,90 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Matcha CMU</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>มัทฉะญี่ปุ่นแท้ | Matcha Minimal</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
   <style>
-    :root {
-      --matcha-light: #e6f2e6;
-      --matcha-green: #8fbf88;
-      --matcha-dark: #4a7c59;
-      --text: #333;
-    }
-
     body {
-      margin: 0;
+      background-color: #f6fdf6;
       font-family: 'Noto Sans Thai', sans-serif;
-      background-color: var(--matcha-light);
-      color: var(--text);
-      text-align: center;
+      color: #2e4e2f;
     }
-
-    header {
-      background-color: #ffffffcc;
-      padding: 20px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    h1, h2, h3 {
+      color: #335533;
     }
-
-    header img {
-      width: 120px;
-      height: auto;
-      display: block;
-      margin: 0 auto 10px;
+    figcaption a {
+      color: #5a7e5a;
     }
-
-    header h1 {
-      font-size: 2rem;
-      color: var(--matcha-dark);
-      margin: 0;
-    }
-
-    .tagline {
-      font-size: 1.2rem;
-      color: var(--matcha-green);
-      margin-top: 10px;
-      font-style: italic;
-    }
-
-    .product-section {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-      padding: 40px 20px;
-    }
-
-    .product-card {
-      background-color: #fff;
-      border-radius: 12px;
-      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-      max-width: 280px;
-      padding: 20px;
-      transition: transform 0.3s ease;
-    }
-
-    .product-card:hover {
-      transform: translateY(-5px);
-    }
-
-    .product-card img {
-      width: 100%;
-      border-radius: 8px;
-      object-fit: cover;
-    }
-
-    .product-card h2 {
-      font-size: 1.1rem;
-      color: var(--matcha-dark);
-      margin: 10px 0 5px;
-    }
-
-    .price {
-      color: var(--matcha-green);
-      font-weight: bold;
-      font-size: 1.2rem;
-    }
-
-    footer {
-      background-color: #ffffffcc;
-      padding: 20px;
-      margin-top: 40px;
-      font-size: 0.9rem;
-      color: #555;
+    nav strong {
+      color: #4b704b;
     }
   </style>
 </head>
 <body>
+  <nav class="container-fluid">
+    <ul>
+      <li><strong>Matcha Minimal</strong></li>
+    </ul>
+    <ul>
+      <li><a href="#">หน้าแรก</a></li>
+      <li><a href="#">สินค้า</a></li>
+      <li><a href="#" role="button">ติดต่อ</a></li>
+    </ul>
+  </nav>
 
-  <header>
-    <!-- โลโก้น่ารักตรงกลาง -->
-    <img src="logo-cute-matcha.png" alt="โลโก้ร้านมัทฉะน่ารัก" />
-    <h1>Matcha CMU</h1>
-    <div class="tagline">“เติมความสดชื่น พร้อมสุขภาพดี สำหรับชาว มช.”</div>
-  </header>
+  <main class="container">
+    <div class="grid">
+      <section>
+        <hgroup>
+          <h2>มัทฉะญี่ปุ่นแท้</h2>
+          <h3>ความละมุนจากใบชาเขียวแท้ 100%</h3>
+        </hgroup>
+        <p>เราคัดสรรมัทฉะคุณภาพสูงจากไร่ชาญี่ปุ่นโดยตรง มอบรสสัมผัสกลมกล่อม หอมละมุน ดื่มง่าย และดีต่อสุขภาพ เหมาะทั้งชงดื่มและใช้ทำขนม</p>
 
-  <section class="product-section">
-    <!-- สินค้า 1 -->
-    <div class="product-card">
-      <img src="matcha1.jpg" alt="มัทฉะแบบซอง">
-      <h2>มัทฉะแบบซอง 10g</h2>
-      <div class="price">฿45</div>
+        <figure>
+          <img src="https://via.placeholder.com/600x400?text=Matcha+Latte" alt="มัทฉะลาเต้" />
+          <figcaption><a href="#" target="_blank">มัทฉะลาเต้</a></figcaption>
+        </figure>
+
+        <h3>ผงมัทฉะแบบซอง</h3>
+        <p>แพ็กเกจเรียบง่าย สไตล์ญี่ปุ่น เหมาะสำหรับผู้ที่ต้องการความสะดวก รวดเร็ว</p>
+
+        <figure>
+          <img src="https://via.placeholder.com/600x400?text=Matcha+Powder+Bag" alt="ผงมัทฉะแบบซอง" />
+          <figcaption><a href="#" target="_blank">ผงมัทฉะซอง</a></figcaption>
+        </figure>
+
+        <h3>กระปุกมัทฉะแบบพรีเมียม</h3>
+        <p>บรรจุภัณฑ์สวยงาม หรูหรา เหมาะสำหรับของขวัญหรือสายชาเขียวตัวจริง</p>
+
+        <figure>
+          <img src="https://via.placeholder.com/600x400?text=Matcha+Premium+Can" alt="มัทฉะกระปุก" />
+          <figcaption><a href="#" target="_blank">มัทฉะแบบกระปุก</a></figcaption>
+        </figure>
+
+      </section>
     </div>
+  </main>
 
-    <!-- สินค้า 2 -->
-    <div class="product-card">
-      <img src="matcha2.jpg" alt="มัทฉะลาเต้">
-      <h2>มัทฉะลาเต้เย็น</h2>
-      <div class="price">฿60</div>
-    </div>
-
-    <!-- สินค้า 3 -->
-    <div class="product-card">
-      <img src="matcha3.jpg" alt="มัทฉะสมูทตี้">
-      <h2>มัทฉะสมูทตี้</h2>
-      <div class="price">฿75</div>
+  <section aria-label="Subscribe example">
+    <div class="container">
+      <article>
+        <hgroup>
+          <h2>รับข่าวสารจากเรา</h2>
+          <h3>โปรโมชั่น ชาใหม่ และเคล็ดลับจากมัทฉะแท้</h3>
+        </hgroup>
+        <form class="grid">
+          <input type="text" id="firstname" name="firstname" placeholder="ชื่อของคุณ" aria-label="ชื่อของคุณ" required />
+          <input type="email" id="email" name="email" placeholder="อีเมลของคุณ" aria-label="อีเมลของคุณ" required />
+          <button type="submit" onclick="event.preventDefault()">สมัครรับข่าวสาร</button>
+        </form>
+      </article>
     </div>
   </section>
 
-  <footer>
-    &copy; 2025 Matcha CMU | ร้านมัทฉะสำหรับนักศึกษามหาวิทยาลัยเชียงใหม่
+  <footer class="container">
+    <small><a href="#">นโยบายความเป็นส่วนตัว</a> • <a href="#">ติดต่อเรา</a></small>
   </footer>
-
 </body>
 </html>
